@@ -1,4 +1,3 @@
-# automatic-data-analysis-visualization-AI-
 # use case data copilot 
 ### work steps 
 #### 1.chat with your csv file using openai 
@@ -34,5 +33,4 @@ content_t=   PromptTemplate.from_template(
 #### concoluation in the in english veration the results of month dataset perfect  using autogen(user proxy and assistand ) 
 
 #### arabic verstion secation 3 in comparsion file 
-
 
