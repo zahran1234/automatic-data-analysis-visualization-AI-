@@ -433,14 +433,39 @@ output :
 notes : miss understand the model the the revenue in q4 in 2016 and all 2015 
 ```
 
+# Conclusion: Data Copilot - Arabic Prompt Challenges and Solutions
 
-# **concoluation**
-### When we use the Arabic prompt the result (miss understand the model the the revenue in q4 in 2016 and all 2015 ) maybe ecepted or not 
+## Key Findings
 
-### When translating the prompt using Google Translate into English the result (accepted)
+### 1. Arabic Prompt Challenges
+- **Issue**: When using Arabic prompts, there were instances of misunderstanding, particularly with complex queries. For example, the model incorrectly interpreted a request for Q4 2016 revenue as being for the entire year of 2015 and Q4 of 2016.
+- **Implication**: This indicates a potential gap in language processing capabilities, especially for nuanced tasks like data filtration and analysis in non-English languages.
 
-### to solve this problem we used Autogenbut had a problem saving the Python code file. It doesn't work 100 % 
-### response filtration save it in a Python file and run it remotely 
+### 2. Translating Prompts to English
+- **Solution**: Translating the Arabic prompts into English using tools like Google Translate resulted in accepted and accurate responses.
+- **Outcome**: This workaround demonstrated the model's proficiency in handling complex data queries when the prompts were in English.
+
+### 3. AutoGen Utilization
+- **Approach**: To address the challenges posed by language limitations, AutoGen was employed.
+- **Problem Encountered**: Although AutoGen generally improved accuracy, it faced difficulties in saving the Python code file and executing it remotely, which impacted its efficacy.
+
+### 4. Response Filtration and Remote Execution
+- **Proposed Solution**: Implementing a system for response filtration, where the output is saved in a Python file and then run remotely, could streamline the process.
+- **Consideration**: This method requires additional steps but could potentially bridge the gap between prompt interpretation and accurate execution, especially in multilingual contexts.
+
+## Recommendations
+
+1. **Improved Language Processing**: Enhance the model's ability to interpret and process non-English languages, particularly for complex analytical tasks.
+   
+2. **Prompt Translation Mechanism**: Integrate an automatic prompt translation feature to convert non-English queries into English, thereby leveraging the model's strengths.
+   
+3. **AutoGen Enhancement**: Refine AutoGen's capabilities in file management and execution to ensure more consistent and reliable results.
+
+4. **Robust Response Filtration System**: Develop a sophisticated response filtration system that can accurately parse model outputs, save them appropriately, and execute remotely for diverse languages.
+
+## Overall Insight
+The project highlights the challenges and potential solutions in employing advanced NLP models for data analysis tasks in non-English languages. Addressing these challenges through technical improvements and innovative solutions will enhance the versatility and effectiveness of such models in multilingual environments.
+
 
 
 
